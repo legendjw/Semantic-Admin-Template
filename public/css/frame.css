@@ -1,0 +1,57 @@
+
+body {
+  overflow: hidden;
+  height:100%;
+}
+#frame-root {
+  height:100%;
+}
+.ui.menu {
+  margin: 0px;
+  border-radius: 0px;
+  box-shadow: 0 0 0 0;
+}
+.ui.vertical.menu {
+  box-shadow: 0 0 0 0;
+}
+.ui.small.menu.left {
+  border-top: 0px;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+}
+#tab-container {
+  position: relative;
+  height: 100%;
+  margin-left: 150px;
+}
+#tab-menu {
+  border-top: 0px;
+  border-left: 0px;
+}
+#tab-menu > .item > i.remove.icon {
+  opacity: 0.5;
+  position: absolute;
+  top: 1px;
+  font-size: 0.8em;
+}
+#tab-frame {
+  width: 100%;
+  height: calc(100% - 35px);
+}
+.ui.fluid.container {
+  height: 100%;
+}
+.ui.menu>.item:first-child {
+  border-radius: 0 0 0 0;
+}
+.ui.menu.left>.item:first-child {
+  padding: 0px 0px;
+}
+.ui.menu.left .ui.card {
+  box-shadow: 0 0 0 0;border-radius: 0px;
+}
+
+.ui.menu.left .ui.card .header {
+  padding: 5px 0;
+}
